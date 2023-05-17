@@ -39,6 +39,8 @@ while pilihan != 5:
         print("Terima kasih sudah menggunakan program ini!")
     else:
         print("Pilihan tidak valid. Silahkan coba lagi.")
+       
+    # ini comment
 
 
 
