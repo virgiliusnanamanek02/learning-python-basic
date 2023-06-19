@@ -5,6 +5,7 @@ def hitung_luas_alas(diameter):
     luas_alas = 3.14 * jari_jari * jari_jari
     return luas_alas
 
+
 def hitung_volume_tabung(diameter, tinggi):
     # Menghitung jari-jari dari diameter
     jari_jari = diameter / 2
@@ -13,9 +14,11 @@ def hitung_volume_tabung(diameter, tinggi):
     return volume_tabung
 
 # Program utama
-pilihan = 0
 
-while pilihan != 5:
+
+PILIHAN = 0
+
+while PILIHAN != 5:
     print("*** PROGRAM TABUNG ***")
     print("1. Masukan Diameter Alas")
     print("2. Masukan Tinggi Tabung")
@@ -39,8 +42,5 @@ while pilihan != 5:
         print("Terima kasih sudah menggunakan program ini!")
     else:
         print("Pilihan tidak valid. Silahkan coba lagi.")
-       
+
     # ini comment
-
-
-
